@@ -1,5 +1,4 @@
-
-        // Mobile menu toggle
+// Mobile menu toggle
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         
@@ -66,4 +65,19 @@
                 });
             });
         });
-    
+        
+        document.addEventListener('DOMContentLoaded', function () {
+          new Swiper('.certificates-swiper', {
+            loop: true,
+            autoplay: { delay: 2500, disableOnInteraction: false },
+            slidesPerView: 1,
+            spaceBetween: 24,
+          });
+        
+          new Swiper('.diplomas-swiper', {
+            loop: true,
+            autoplay: { delay: 2500, disableOnInteraction: false },
+            slidesPerView: 1,
+            spaceBetween: 24,
+          });
+        });

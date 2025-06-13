@@ -7,6 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
 </head>
 <body class="bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 text-gray-100">
@@ -190,14 +193,59 @@
                                 <span class="font-medium">Photoshop</span>
                                 <span>65%</span>
                             </div>
+                            
                             <div class="h-2 bg-gray-700 rounded-full">
                                 <div class="h-full bg-indigo-500 rounded-full skill-bar" style="width: 65%"></div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+            <!-- Certificates & Diplomas Carousel Section -->
+
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold mb-6">Proof of Skills</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- Certificates Carousel -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Certificates</h3>
+        <div class="swiper certificates-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-black bg-opacity-70 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+                <div class="p-6">
+                  <h4 class="font-bold text-lg mb-2">JavaScript Certificate</h4>
+                  <p class="text-sm text-gray-600 mb-2">Coursera, Jan 2024</p>
+                  <a href="https://example.com/certificate-js" target="_blank" class="text-blue-500 underline">View Certificate</a>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <!-- Diplomas Carousel -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Diplomas</h3>
+        <div class="swiper diplomas-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-black bg-opacity-70 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+                <div class="p-6">
+                  <h4 class="font-bold text-lg mb-2">Diploma in Computer Science</h4>
+                  <p class="text-sm text-gray-600 mb-2">ABC University, June 2023</p>
+                  <a href="https://example.com/diploma-cs" target="_blank" class="text-blue-500 underline">View Diploma</a>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     </section>
 
     <!-- Work Section -->
